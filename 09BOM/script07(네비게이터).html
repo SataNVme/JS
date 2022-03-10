@@ -10,13 +10,13 @@
     
     <script>
         //네비게이터객체는 - 브라우저에 대한 정보를 제공합니다
-        //console.dir(navigator);
+        console.dir(navigator);
 
         var browser = navigator.userAgent.toLowerCase();
         console.log(browser);
         console.log(browser.indexOf("chrome") ); //문자가 있다면 위치, 없다면 -1반환
 
-        if(browser.indexOf("chrome") != -1) {
+        if(browser.indexOf("chrome") != -1) { 
             //크롬디자인
             console.log("크롬");
             //디자인 동적로드
